@@ -17,7 +17,9 @@ const { hero, education, experience, languages, habilities, volunteer, } = CV ;
 
 function App() {
 
+  // el useState es un hook, para manejar más cómodamente los componenetes, y así le llamo
   const [showEducation, setShowEducation] = useState(true);
+
     return (
       <div className="App">
 
@@ -39,6 +41,7 @@ function App() {
               Experience
             </button>
 
+{/* hago ésta analogía para que me muestre una cosa u otra, de acuerdo a lo que le de al botón  */}
             <div>
                 {showEducation ? (
                   <Education education={education} />
