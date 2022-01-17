@@ -18,7 +18,7 @@ const { hero, education, experience, languages, habilities, volunteer, } = CV ;
 function App() {
 
   // el useState es un hook, para manejar más cómodamente los componenetes, y así le llamo
-  const [showEducation, setShowEducation] = useState(true);
+  const [showEducation, setShowEducation] = useState(true); // funcionalidad de botones y llamadas 
 
     return (
       <div className="App">
@@ -27,6 +27,7 @@ function App() {
           <Hero hero={ hero }/>
           <About hero={ hero } />
 
+{/* aquí comienza el juego  */}
           <button
               className="custom-btn btn-4"
               onClick={() => setShowEducation(true)}
@@ -52,8 +53,9 @@ function App() {
 
           {/* <Education education= { education } />
           <Experience experience= { experience } /> */}
-
+          
           <More languages={ languages } habilities={ habilities } volunteer={ volunteer } />
+          
             
       </div>
     );
