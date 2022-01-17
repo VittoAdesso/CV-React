@@ -1,0 +1,13 @@
+.education-card{
+
+     display: flex;
+     flex-direction: center;
+     justify-content: space-around;
+     background-color: rgba(240, 248, 255, 0.192);
+     border-radius: 10px;
+     width: 60%;
+     margin-top: 10px;
+     margin-left: 20%;
+    
+     
+}

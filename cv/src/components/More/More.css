@@ -1,0 +1,27 @@
+.more-card{
+
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.301);
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20%;
+   
+    
+}
+
+.habilities-card{
+
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.349);
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20%;
+   
+    
+}
