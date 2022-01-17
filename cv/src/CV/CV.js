@@ -114,25 +114,39 @@ export const CV = {
         description:
           "",
       },
-    
-      
-    
     ],
-    languages: {
-      language: "English",
-      wrlevel: "Native",
-      splevel: "Native",
-    },
+
+    languages: [ 
+        
+        {
+        language: "Español",
+        wrlevel: "Native",
+        splevel: "Native",
+        },
+        {
+        language: "Inglés",
+        wrlevel: "B2",
+        splevel: "B2",
+        },
+        {
+        language: "Italiano",
+        wrlevel: "C1",
+        splevel: "C1",
+        },
+
+    ],
+     
     habilities: [
-      "Robotics",
-      "Robot Programming",
-      "Physics",
-      "Weaponery",
-      "Engineer",
-      "Money",
-      "Dating",
-      "Saving the world",
+      "Javascript",
+      "Angular",
+      "MongoDB",
+      "NodeJs",
+      "Scss",
+      "Git",
+      "Scrum",
+      "React",
     ],
+
     volunteer: [
       {
         name: "",
